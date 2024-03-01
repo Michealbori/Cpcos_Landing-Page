@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.active{
+    cursor: pointer;
+}
+
+
+.btnd{
+    background: #fd860b;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 8px 30px 8px 30px;
+    border-radius: 22px;
+}
+
+
+.Hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Hero-section h4{
+    font-size: 80px;
+}
+
+.Hero-section .firstHero_section{
+     padding: 7em;
+     color: #24236d;
+}
+
+.Hero-section .firstHero_section span{
+      color: #fd860b;
+      font-family: "Germania One", system-ui;
+
+}
+
+
+.Expirience-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    padding: 2em;
+}
+
+.Expirience-box img{
+    background-color: #fff;
+    border-radius: 59%;
+     width: 20%;
+     margin: 20px 0 20px 0;
+}
+
+.Expirience-box .first_section{
+    background: #fd860b;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+}
+.Expirience-box .second_section{
+    background: #24236d;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+    margin: 0 70px 0 70px;
+}
+.Expirience-box .third_section{
+    background: #fd860b;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+    margin: 0 70px 0 0;
+}
+.Expirience-box .fourth_section{
+    background: #fd860b;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+}
+
+
+
+#dot-section1{
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+    font-size: 50px;
+}
+#dot-section2{
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+    font-size: 50px;
+}
+#dot-section4{
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+    font-size: 50px;
+}
+#dot-section5{
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+    font-size: 50px;
+}
+
+#dot-section3{
+    font-size: 50px;
+}
+
+.Hero-section .Trainer_section{
+    padding: 10em;
+}
+
+.Hero-section .Trainer_section button{
+    border: none;
+    padding: 0.7em;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background-color: #fd860b;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.Hero-section .Officesecond_section button{
+    border: none;
+    padding: 0.7em;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background-color: #fd860b;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.Hero-section .Officesecond_section h4{
+    color: #24236d;
+    font-size: 50px;
+    padding: 3em 0 0 0;
+}
+
+.Hero-section h4{
+    color: #24236d;
+    font-size: 50px;
+}
+
+.Hero-section span{
+    color: #fd860b;
+}
+
+.Client_section{
+    margin: 3em 0 0 3em;
+}
+
+.Client_section h4{
+    color: #24236d;
+    font-size: 50px;
+}
+
+.Client_section span{
+    color: #fd860b;
+}
+
+#dev-section {
+    text-align: center;
+    font-family: franklin Gothic medium;
+}
+
+#dev-section h5{
+    color: #24236d;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 50px 0 50px 0;
+    font-weight: 700;
+    color: #24236d;
+}
+
+footer button{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fd860b;
+    border-radius: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 0 0;
+}
+
+.contact-section h3{
+    color: #24236d;
+}
+.company-section h3{
+    color: #24236d;
+}
+.ourservice-section h3{
+    color: #24236d;
+}
+.opening-section h3{
+    color: #24236d;
+}
+
+
+                 /* Media View 768px */
+
+@media (max-width: 768px){
+    
+    .Hero-section{
+        display: block;
+    }
+
+    .secondHero_section img{
+        width: 100%;
+    }
+    .Hero-section .firstHero_section{
+        padding: 1em;
+   }
+
+   .Hero-section h4{
+    font-size: 30px;
+}
+
+   .Hero-section p{
+    font-size: 10px;
+}
+
+.Expirience-box{
+    display: block;
+    margin: 1em;
+    padding: 2em;
+}
+
+.Expirience-box .second_section{
+    margin: 20px 0 20px 0;
+}
+.Expirience-box .third_section{
+    margin: 0 0 20px 0;
+}
+
+footer{
+    display: block;
+}
+
+
+.contact-section h3{
+    padding: 0 0 0 1.4em ;
+}
+
+.contact-section{
+    margin: 0 0 0 1.4em ;
+}
+.company-section h3{
+    padding: 0 0 0 1.4em ;
+}
+
+.company-section{
+    margin: 0 0 0 1.4em ;
+}
+.ourservice-section h3{
+    padding: 0 0 0 1.4em ;
+}
+
+.ourservice-section{
+    margin: 0 0 0 1.4em ;
+}
+.opening-section h3{
+    padding: 0 0 0 1.4em ;
+}
+.opening-section{
+    margin: 0 0 1em 1.4em ;
+}
+
+
+.Hero-section .Trainer_section{
+    padding: 2em;
+}
+
+.Trainersecond_section img{
+    width: 100%;
+}
+
+.Office_section img{
+    width: 100%;
+}
+
+.Officesecond_section{
+    padding: 0 0 0 1.4em;
+}
+
+/* #Exclusive-text h4{
+    font-size: 20px;
+} */
+
+
+}
+
+                 /* Media View 992px */
+
+@media (max-width: 992px){
+    .Hero-section{
+        display: block;
+    }
+
+    .secondHero_section img{
+        width: 100%;
+    }
+    .Hero-section .firstHero_section{
+        padding: 1em;
+   }
+
+   .Hero-section h4{
+    font-size: 30px;
+}
+
+   .Hero-section p{
+    font-size: 10px;
+}
+
+.Expirience-box{
+    display: block;
+    margin: 1em;
+    padding: 2em;
+}
+
+.Expirience-box .second_section{
+    margin: 20px 0 20px 0;
+}
+.Expirience-box .third_section{
+    margin: 0 0 20px 0;
+}
+
+footer{
+    display: block;
+}
+
+
+.contact-section h3{
+    padding: 0 0 0 1.4em ;
+}
+
+.contact-section{
+    margin: 0 0 0 1.4em ;
+}
+.company-section h3{
+    padding: 0 0 0 1.4em ;
+}
+
+.company-section{
+    margin: 0 0 0 1.4em ;
+}
+.ourservice-section h3{
+    padding: 0 0 0 1.4em ;
+}
+
+.ourservice-section{
+    margin: 0 0 0 1.4em ;
+}
+.opening-section h3{
+    padding: 0 0 0 1.4em ;
+}
+.opening-section{
+    margin: 0 0 1em 1.4em ;
+}
+
+
+.Hero-section .Trainer_section{
+    padding: 2em;
+}
+
+.Trainersecond_section img{
+    width: 100%;
+}
+
+.Office_section img{
+    width: 100%;
+}
+
+.Officesecond_section{
+    padding: 0 0 0 1.4em ;
+}
+}
